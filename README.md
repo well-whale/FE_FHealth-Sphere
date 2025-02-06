@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# F Health Sphere
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+F Health Sphere là nền tảng chăm sóc sức khỏe cá nhân thông minh, tích hợp công nghệ IoT và AI nhằm quản lý sức khỏe một cách tự động, theo dõi sức khỏe thời gian thực và gửi cảnh báo sớm khi phát hiện các vấn đề sức khỏe nguy hiểm.
 
-## Available Scripts
+## Bối Cảnh Vấn Đề
 
-In the project directory, you can run:
+Nhiều người gặp khó khăn trong việc theo dõi tình trạng huyết áp cá nhân. Việc đo huyết áp thủ công có thể rất khó khăn và không chính xác nếu không có thiết bị chuyên dụng. Nền tảng này nhằm cung cấp một giải pháp tự động hóa, giúp người dùng theo dõi tình trạng sức khỏe của mình một cách nhanh chóng và chính xác.
 
-### `npm start`
+## Giải Pháp
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+F Health Sphere xây dựng nền tảng tích hợp AI và IoT để:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Theo dõi sức khỏe thời gian thực**: Tích hợp các thiết bị IoT (ví dụ: vòng tay thông minh, thiết bị đo huyết áp, nhịp tim), gửi dữ liệu thời gian thực lên server trung tâm để phân tích.
+  
+- **Phân tích AI**: Sử dụng AI để nhận diện các dấu hiệu nguy hiểm như nhịp tim bất thường, huyết áp cao/thấp, và gửi cảnh báo đến người dùng hoặc bác sĩ khi phát hiện nguy cơ.
 
-### `npm test`
+- **Quản lý hồ sơ sức khỏe cá nhân**: Lưu trữ và quản lý lịch sử bệnh, dễ dàng truy cập thông tin y tế qua ứng dụng di động.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Nhắc nhở và cá nhân hóa**: Tự động nhắc nhở người dùng về lịch khám sức khỏe, uống thuốc, đồng thời đề xuất các bài tập thể dục hoặc thói quen lành mạnh dựa trên tình trạng sức khỏe cá nhân.
 
-### `npm run build`
+- **Tích hợp mobile app**: Người dùng có thể xem dữ liệu sức khỏe, nhận cảnh báo và lời khuyên từ AI, đồng thời liên lạc nhanh với bác sĩ hoặc người thân trong trường hợp khẩn cấp.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Các Tính Năng Chính
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Theo dõi huyết áp và nhịp tim thời gian thực**.
+- **Phân tích dữ liệu y tế bằng AI** để phát hiện các dấu hiệu nguy hiểm.
+- **Gửi cảnh báo cho người dùng và bác sĩ** khi phát hiện nguy cơ sức khỏe.
+- **Lưu trữ và quản lý hồ sơ sức khỏe cá nhân**.
+- **Nhắc nhở lịch khám sức khỏe, uống thuốc, và đề xuất thói quen lành mạnh**.
+- **Tích hợp mobile app** giúp người dùng theo dõi và nhận cảnh báo mọi lúc, mọi nơi.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Công Nghệ Sử Dụng
 
-### `npm run eject`
+- **Frontend**: React.js (hoặc Next.js cho website, React Native hoặc Flutter cho mobile app).
+- **Backend**: Node.js với Express.js hoặc Python với Django/FastAPI.
+- **Database**: PostgreSQL hoặc MongoDB.
+- **IoT Communication**: MQTT.
+- **AI**: TensorFlow hoặc PyTorch cho phân tích dữ liệu y tế.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Cài Đặt
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Để chạy dự án này, làm theo các bước sau:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Cài Đặt Frontend
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone repository:
+   ```bash
+   git clone https://github.com/your-username/f-health-sphere.git
